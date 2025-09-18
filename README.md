@@ -44,7 +44,7 @@
 - 5.1/2.0 (EAC3 - 384kbps)                    to Dolby Digital Plus 1.0 [Downmix]
 - 5.1 (EAC3 Atmos - 576kbps / EAC3 - 384kbps) to Dolby AC-4 2.0
 
-##### Software used:
+## Software used:
 - DEE           : https://professional.dolby.com/product/media-processing-and-delivery/dee--dolby-encoding-engine
 - DEEW          : https://github.com/pcroland/deew
 - FFmpeg FFprobe: https://ffmpeg.org
