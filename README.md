@@ -46,5 +46,5 @@
 
 ## Software used:
 - DEE (Cracked by F*ckdolby): https://professional.dolby.com/product/media-processing-and-delivery/dee--dolby-encoding-engine
-- DEEW                      : https://github.com/pcroland/deew
-- FFmpeg / FFprobe          : https://ffmpeg.org
+- DEEW: https://github.com/pcroland/deew
+- FFmpeg / FFprobe: https://ffmpeg.org
