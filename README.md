@@ -18,7 +18,8 @@
 - 5.1         to Dolby AC-4 2.0
 
 ## 📀🇪🇺 "DEE DVD PAL to HD NTSC.bat":
-### Offers you suitable audio encoding configurations if you plan to copy the audio track of a French DVD (25fps) to an HD NTSC format (Blu-Ray/Streaming at 23.976fps). To use this program, first use the "Framerate PAL to NTSC.bat" batch file to prepare your audio file in lossless NTSC format.
+### Offers you suitable audio encoding configurations if you plan to copy the audio track of a French DVD (25fps) to an HD NTSC format (Blu-Ray/Streaming at 23.976fps).
+#### To use this program, first use the "Framerate PAL to NTSC.bat" batch file to prepare your audio file in lossless NTSC format.
 - 5.1 (DTS - +768kbps)                 to Dolby Digital 5.1
 - 5.1 (AC3 - 448kbps)                  to Dolby Digital 5.1
 - 5.1 (AC3 - 384kbps)                  to Dolby Digital 5.1
@@ -34,7 +35,8 @@
 - 5.1 (DTS - +768kbps)                 to Dolby AC-4 2.0
 
 ## 📺🇫🇷 "DEE CANAL+ to HD NTSC.bat"
-### Offers you suitable audio encoding configurations if you plan to copy the audio track of content recovered from CANAL+ (25fps) into an HD NTSC format (Blu-Ray/Streaming at 23.976fps). To use this program, first use the "Framerate PAL to NTSC.bat" batch to prepare your audio file in lossless NTSC format. CANAL+ is a French streaming platform🇫🇷
+### Offers you suitable audio encoding configurations if you plan to copy the audio track of content recovered from CANAL+ (25fps) into an HD NTSC format (Blu-Ray/Streaming at 23.976fps).
+#### To use this program, first use the "Framerate PAL to NTSC.bat" batch to prepare your audio file in lossless NTSC format. CANAL+ is a French streaming platform🇫🇷
 - 2.0 (AAC - 128kbps)                         to Dolby Digital 2.0
 - 5.1 (EAC3 Atmos - 576kbps)                  to Dolby Digital Plus 5.1
 - 5.1/2.0 (EAC3 - 384kbps)                    to Dolby Digital Plus 5.1/2.0
@@ -42,7 +44,7 @@
 - 5.1/2.0 (EAC3 - 384kbps)                    to Dolby Digital Plus 1.0 [Downmix]
 - 5.1 (EAC3 Atmos - 576kbps / EAC3 - 384kbps) to Dolby AC-4 2.0
 
-#### Software used:
+##### Software used:
 - DEE           : https://professional.dolby.com/product/media-processing-and-delivery/dee--dolby-encoding-engine
 - DEEW          : https://github.com/pcroland/deew
 - FFmpeg FFprobe: https://ffmpeg.org
