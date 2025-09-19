@@ -4,18 +4,19 @@
 
 ## 🔵 "DEE Blu-Ray.bat":
 ### Offers you suitable audio encoding configurations for all your Blu-ray releases, provided your audio tracks are lossless.
-- 5.1         to Dolby Digital 5.1
-- 2.0/1.0     to Dolby Digital 2.0/1.0
-- 5.1         to Dolby Digital 2.0 [Downmix]
-- 5.1/2.0     to Dolby Digital 1.0 [Downmix]
-- 7.1         to Dolby Digital Plus 7.1
-- 5.1         to Dolby Digital Plus 5.1
-- 2.0/1.0     to Dolby Digital Plus 2.0/1.0
-- 7.1         to Dolby Digital Plus 5.1 [Downmix]
-- 7.1/5.1     to Dolby Digital Plus 2.0 [Downmix]
-- 7.1/5.1/2.0 to Dolby Digital Plus 1.0 [Downmix]
+- 5.1         to Dolby Digital 5.1 (640kbps)
+- 2.0/1.0     to Dolby Digital 2.0/1.0 (224kbps)
+- 7.1         to Dolby Digital 5.1 [Downmix] (640kbps)
+- 7.1/5.1     to Dolby Digital 2.0 [Downmix] (224kbps)
+- 7.1/5.1/2.0 to Dolby Digital 1.0 [Downmix] (224kbps)
+- 7.1         to Dolby Digital Plus 7.1 (768kbps)
+- 5.1         to Dolby Digital Plus 5.1 (640kbps)
+- 2.0/1.0     to Dolby Digital Plus 2.0/1.0 (224kbps)
+- 7.1         to Dolby Digital Plus 5.1 [Downmix] (640kbps)
+- 7.1/5.1     to Dolby Digital Plus 2.0 [Downmix] (224kbps)
+- 7.1/5.1/2.0 to Dolby Digital Plus 1.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby TrueHD 7.1/5.1/2.0
-- 5.1         to Dolby AC-4 2.0
+- 5.1         to Dolby AC-4 2.0 (320kbps)
 
 ## 📀🇪🇺 "DEE DVD PAL to HD/4K NTSC.bat":
 ### Offers you suitable audio encoding configurations if you plan to copy the audio track of a French DVD (25fps) to an HD/4K NTSC format (Blu-Ray/Streaming at 23.976fps).
