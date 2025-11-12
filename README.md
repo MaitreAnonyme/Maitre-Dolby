@@ -1,6 +1,7 @@
 # Maitre Dolby
-- This pack compiles the Dolby Encoding Engine Wrapper software and the Dolby Encoding Engine algorithm. 
-- Thanks to the provided batch scripts, you can easily convert your audio tracks according to your needs and using the Dolby algorithm.
+- This pack compiles all the software needed to work with Dolby.
+- Thanks to the provided batch scripts, you can easily convert your audio tracks according to your needs and using the Dolby algorithm (Atmos including).
+- Thanks to the "DoVi_Scripts" batch scripts and all its included extension software, you can easily create your Dolby Vision content (from HDR10/HDR10+ metadata), convert Dolby Vision metadata to a lower profile or transfer metadata from one file to another (WEB-DL to Blu-Ray for example)
 
 ## 🔵 "DEE Blu-Ray.bat":
 ### Offers you suitable audio encoding configurations for all your Blu-ray releases, provided your audio tracks are lossless.
@@ -9,6 +10,7 @@
 - 7.1         to Dolby Digital 5.1 [Downmix] (640kbps)
 - 7.1/5.1     to Dolby Digital 2.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby Digital 1.0 [Downmix] (224kbps)
+- 7.1         to Dolby Digital Plus 7.1 (Blu-Ray / 1024kbps)
 - 7.1         to Dolby Digital Plus 7.1 (768kbps)
 - 5.1         to Dolby Digital Plus 5.1 (640kbps)
 - 2.0/1.0     to Dolby Digital Plus 2.0/1.0 (224kbps)
@@ -16,6 +18,7 @@
 - 7.1/5.1     to Dolby Digital Plus 2.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby Digital Plus 1.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby TrueHD 7.1/5.1/2.0
+- Atmos       to Dolby Digital Plus Atmos 5.1.4
 - 5.1         to Dolby AC-4 2.0 (320kbps)
 
 ## 📀🇪🇺 "DEE DVD PAL to HD/4K NTSC.bat":
@@ -47,5 +50,7 @@
 
 ## Software used:
 - DEE (Cracked by F*ckdolby): https://professional.dolby.com/product/media-processing-and-delivery/dee--dolby-encoding-engine
+- Deezy: https://github.com/jessielw/DeeZy
 - DEEW: https://github.com/pcroland/deew
+- DoVi_Scripts: https://github.com/R3S3t9999/DoVi_Scripts
 - FFmpeg / FFprobe: https://ffmpeg.org
