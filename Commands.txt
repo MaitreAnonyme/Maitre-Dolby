@@ -1,0 +1,60 @@
+DEE Blu-Ray:
+
+5.1         to Dolby Digital 5.1 (640kbps):                                                  deew -f dd -b 640 -i [File name]
+2.0/1.0     to Dolby Digital 2.0/1.0 (224kbps):                                              deew -f dd -b 224 -i [File name]
+
+7.1         to Dolby Digital 5.1 [Downmix] (640kbps):                                        deew -dm 6 -f dd -b 640 -i [File name]
+7.1/5.1     to Dolby Digital 2.0 [Downmix] (224kbps):                                        deew -dm 2 -f dd -b 224 -i [File name]
+7.1/5.1/2.0 to Dolby Digital 1.0 [Downmix] (224kbps):                                        deew -dm 1 -f dd -b 224 -i [File name]
+
+7.1         to Dolby Digital Plus 7.1 (Blu-Ray / 1024kbps):                                  deezy encode ddp-bluray --bitrate 1024 --channels 8 [File name]
+7.1         to Dolby Digital Plus 7.1 (768kbps):                                             deew -f ddp -b 768 -i [File name]
+5.1         to Dolby Digital Plus 5.1 (640kbps):                                             deew -f ddp -b 640 -i [File name]
+2.0/1.0     to Dolby Digital Plus 2.0/1.0 (224kbps):                                         deew -f ddp -b 224 -i [File name]
+
+7.1         to Dolby Digital Plus 5.1 [Downmix] (640kbps):                                   deew -dm 6 -f ddp -b 640 -i [File name]
+7.1/5.1     to Dolby Digital Plus 2.0 [Downmix] (224kbps):                                   deew -dm 2 -f ddp -b 224 -i [File name]
+7.1/5.1/2.0 to Dolby Digital Plus 1.0 [Downmix] (224kbps):                                   deew -dm 1 -f ddp -b 224 -i [File name]
+
+7.1/5.1/2.0 to Dolby TrueHD 7.1/5.1/2.0:                                                     deew -f thd -i [File name]
+
+Atmos       to Dolby Digital Plus Atmos 7.1.4 (Blu-Ray / 1280kbps) (WAV / MKV file source):  deezy encode atmos --atmos-mode bluray "[File name]"
+Atmos       to Dolby Digital Plus Atmos 5.1.4 (Streaming / 768kbps) (WAV / MKV file source): deezy encode atmos --atmos-mode streaming --bitrate 768 "[File name]"
+
+5.1         to Dolby AC-4 2.0 (320kbps):                                         deew -f ac4 -i [File name]
+
+
+
+DEE DVD PAL to 4K/HD NTSC:
+
+5.1 (DTS - +768kbps)                 to Dolby Digital 5.1:                deew -f dd -b 640 -i [File name]
+5.1 (AC3 - 448kbps)                  to Dolby Digital 5.1:                deew -f dd -b 448 -i [File name]
+5.1 (AC3 - 384kbps)                  to Dolby Digital 5.1:                deew -f dd -b 384 -i [File name]
+2.0 (AC3 - 192kbps)                  to Dolby Digital 2.0:                deew -f dd -b 192 -i [File name]
+
+5.1 (DTS - +768kbps / AC3 - 448kbps) to Dolby Digital 2.0 [Downmix]:      deew -dm 2 -f dd -b 224 -i [File name]
+5.1 (AC3 - 384kbps)                  to Dolby Digital 2.0 [Downmix]:      deew -dm 2 -f dd -b 192 -i [File name]
+5.1                                  to Dolby Digital 1.0 [Downmix]:      deew -dm 1 -f dd -b 224 -i [File name]
+2.0 (AC3 - 192kbps)                  to Dolby Digital 1.0 [Downmix]:      deew -dm 1 -f dd -b 192 -i [File name]
+2.0 (AC3 - 192kbps) (Dual mono)      to Dolby Digital 1.0 [Downmix]:      deew -dm 1 -f dd -b 96 -i [File name]
+
+5.1 (DTS - +768kbps)                 to Dolby Digital Plus 5.1:           deew -f ddp -b 640 -i [File name]
+
+5.1 (DTS - +768kbps)                 to Dolby Digital Plus 2.0 [Downmix]: deew -dm 2 -f ddp -b 224 -i [File name]
+5.1 (DTS - +768kbps)                 to Dolby Digital Plus 1.0 [Downmix]: deew -dm 1 -f ddp -b 224 -i [File name]
+
+5.1 (DTS - +768kbps)                 to Dolby AC-4 2.0:                   deew -f ac4 -i [File name]
+
+
+
+DEE CANAL+ to 4K/HD NTSC:
+
+2.0 (AAC - 128kbps)                         to Dolby Digital 2.0:                deew -f dd -b 128 -i [File name]
+
+5.1 (EAC3 Atmos - 576kbps)                  to Dolby Digital Plus 5.1:           deew -f ddp -b 576 -i [File name]
+5.1/2.0 (EAC3 - 384kbps)                    to Dolby Digital Plus 5.1/2.0:       deew -f ddp -b 384 -i [File name]
+
+5.1 (EAC3 Atmos - 576kbps / EAC3 - 384kbps) to Dolby Digital Plus 2.0 [Downmix]: deew -dm 2 -f ddp -b 224 -i [File name]
+5.1/2.0 (EAC3 - 384kbps)                    to Dolby Digital Plus 1.0 [Downmix]: deew -dm 1 -f ddp -b 224 -i [File name]
+
+5.1 (EAC3 Atmos - 576kbps / EAC3 - 384kbps) to Dolby AC-4 2.0:                   deew -f ac4 -i [File name]

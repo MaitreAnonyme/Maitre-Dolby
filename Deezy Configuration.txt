@@ -1,0 +1,1 @@
+Copy the file "deezy-conf.toml" into "C:\Users\[User name]\AppData\Local\deezy\".
