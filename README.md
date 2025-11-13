@@ -54,4 +54,4 @@
 - Deezy: https://github.com/jessielw/DeeZy
 - DEEW: https://github.com/pcroland/deew
 - DoVi_Scripts: https://github.com/R3S3t9999/DoVi_Scripts
-- FFmpeg / FFprobe: https://ffmpeg.org
+- FFmpeg / FFprobe: https://github.com/FFmpeg/FFmpeg
