@@ -18,7 +18,8 @@
 - 7.1/5.1     to Dolby Digital Plus 2.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby Digital Plus 1.0 [Downmix] (224kbps)
 - 7.1/5.1/2.0 to Dolby TrueHD 7.1/5.1/2.0
-- Atmos       to Dolby Digital Plus Atmos 5.1.4
+- Atmos       to Dolby Digital Plus Atmos 7.1.4 (Blu-Ray / 1280kbps) (WAV / MKV file source)
+- Atmos       to Dolby Digital Plus Atmos 5.1.4 (Streaming / 768kbps) (WAV / MKV file source)
 - 5.1         to Dolby AC-4 2.0 (320kbps)
 
 ## 📀🇪🇺 "DEE DVD PAL to HD/4K NTSC.bat":
